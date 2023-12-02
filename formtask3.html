@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<style>
+		input{
+			display: block;
+			margin-bottom: 10px;
+		}
+
+
+	</style>
+</head>
+<body>
+	
+	<h1 style="color: Green;">Contact Us</h1>
+
+    <div style="background-color: lightgray;">
+    <form action="#">
+		<input type="text" id="Username" name="username" placeholder="Enter Username">
+		<input type="text" id="Email" name="Email" placeholder="Enter Email">
+		<input type="text" id="Message" name="Message" placeholder="Enter your message">
+		<br>
+		<b><label for="preference">Choose your preference:</label></b>
+		<select id="preference" name="preference">
+			<option value="Email">Email</option>
+			<option value="Whatsapp">Whatsapp</option>
+		</select>
+		<br>
+		<br>
+		<label for="pfp">Upload your file</label>
+		<input type="File" id="File" name="File">
+		<br>
+		<input type="button" id="Submit" name="Submit" value="Submit">
+	</form>
+</div>
+</body>
+</html>
